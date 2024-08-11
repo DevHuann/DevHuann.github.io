@@ -10,7 +10,7 @@ $(function () {
         anime({
             targets: '.art-preloader .art-preloader-content',
             opacity: [0, 1],
-            delay: 200,
+            delay: 600,
             duration: 600,
             easing: 'linear',
             complete: function (anim) {
@@ -20,7 +20,7 @@ $(function () {
         anime({
             targets: '.art-preloader',
             opacity: [1, 0],
-            delay: 2200,
+            delay: 3000,
             duration: 400,
             easing: 'linear',
             complete: function (anim) {
@@ -33,7 +33,7 @@ $(function () {
         strokeWidth: 1.7,
         easing: 'easeInOut',
         duration: 1400,
-        delay: 750,
+        delay: 1000,
         trailWidth: 1.7,
         svgStyle: {
             width: '100%',
