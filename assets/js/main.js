@@ -10,8 +10,8 @@ $(function () {
         anime({
             targets: '.art-preloader .art-preloader-content',
             opacity: [0, 1],
-            delay: 600,
-            duration: 600,
+            delay: 300,
+            duration: 400,
             easing: 'linear',
             complete: function (anim) {
 
@@ -20,8 +20,8 @@ $(function () {
         anime({
             targets: '.art-preloader',
             opacity: [1, 0],
-            delay: 4000,
-            duration: 400,
+            delay: 2500,
+            duration: 300,
             easing: 'linear',
             complete: function (anim) {
                 $('.art-preloader').css('display', 'none');
