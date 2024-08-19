@@ -20,7 +20,7 @@ $(function () {
         anime({
             targets: '.art-preloader',
             opacity: [1, 0],
-            delay: 3000,
+            delay: 4000,
             duration: 400,
             easing: 'linear',
             complete: function (anim) {
