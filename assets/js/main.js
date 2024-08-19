@@ -32,7 +32,7 @@ $(function () {
     var bar = new ProgressBar.Line(preloader, {
         strokeWidth: 1.7,
         easing: 'easeInOut',
-        duration: 1400,
+        duration: 400,
         delay: 1000,
         trailWidth: 1.7,
         svgStyle: {
