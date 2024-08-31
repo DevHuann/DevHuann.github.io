@@ -6,43 +6,7 @@ $(function () {
     "use strict";
 
     // page loading
-    $(document).ready(function () {
-        anime({
-            targets: '.art-preloader .art-preloader-content',
-            opacity: [0, 1],
-            delay: 300,
-            duration: 400,
-            easing: 'linear',
-            complete: function (anim) {
-
-            }
-        });
-        anime({
-            targets: '.art-preloader',
-            opacity: [1, 0],
-            delay: 2500,
-            duration: 300,
-            easing: 'linear',
-            complete: function (anim) {
-                $('.art-preloader').css('display', 'none');
-            }
-        });
-    });
-
-    var bar = new ProgressBar.Line(preloader, {
-        strokeWidth: 1.7,
-        easing: 'easeInOut',
-        duration: 400,
-        delay: 1000,
-        trailWidth: 1.7,
-        svgStyle: {
-            width: '100%',
-            height: '100%'
-        },
-        step: (state, bar) => {
-            bar.setText(Math.round(bar.value() * 100) + ' %');
-        }
-    });
+    
 
     bar.animate(1);
 
