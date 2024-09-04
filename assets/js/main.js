@@ -10,8 +10,8 @@ $(function () {
         anime({
             targets: '.art-preloader .art-preloader-content',
             opacity: [0, 1],
-            delay: 300,
-            duration: 400,
+            delay: 200,
+            duration: 600,
             easing: 'linear',
             complete: function (anim) {
 
@@ -20,8 +20,8 @@ $(function () {
         anime({
             targets: '.art-preloader',
             opacity: [1, 0],
-            delay: 2500,
-            duration: 300,
+            delay: 2200,
+            duration: 400,
             easing: 'linear',
             complete: function (anim) {
                 $('.art-preloader').css('display', 'none');
@@ -32,8 +32,8 @@ $(function () {
     var bar = new ProgressBar.Line(preloader, {
         strokeWidth: 1.7,
         easing: 'easeInOut',
-        duration: 400,
-        delay: 1000,
+        duration: 1400,
+        delay: 750,
         trailWidth: 1.7,
         svgStyle: {
             width: '100%',
